@@ -1,6 +1,6 @@
-const About = ({ image, about }) => {
+const About = ({ image='https://via.placeholder.com/215', about }) => {
     return (<aside>
-        <img src={image} alt='blog logo' default='https://via.placeholder.com/215'></img>
+        <img src={image} alt='blog logo'></img>
         <p>{about}</p>
     </aside>)
 }
